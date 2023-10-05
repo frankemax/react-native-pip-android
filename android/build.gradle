@@ -18,11 +18,11 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
-    compileSdkVersion safeExtGet('PipAndroid_compileSdkVersion', 29)
-    buildToolsVersion safeExtGet('PipAndroid_buildToolsVersion', '29.0.2')
+    compileSdkVersion safeExtGet('PipAndroid_compileSdkVersion', 30)
+    buildToolsVersion safeExtGet('PipAndroid_buildToolsVersion', '30.0.2')
     defaultConfig {
-        minSdkVersion safeExtGet('PipAndroid_minSdkVersion', 16)
-        targetSdkVersion safeExtGet('PipAndroid_targetSdkVersion', 29)
+        minSdkVersion safeExtGet('PipAndroid_minSdkVersion', 23)
+        targetSdkVersion safeExtGet('PipAndroid_targetSdkVersion', 20)
         versionCode 1
         versionName "1.0"
 
